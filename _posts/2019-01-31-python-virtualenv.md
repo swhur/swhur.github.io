@@ -13,7 +13,7 @@ $ conda create -n your_envname
 
 ### Activate virtualenv
 ```console
-$ conda activate your_envname
+$ source activate your_envname
 ```
 
 ### Deactivate virtualenv

@@ -1,7 +1,9 @@
 ---
 title: "맥 터미널 설정"
 date: 2019-11-01 09:02:00
-categories: [mac, terminal]
+categories: 
+  - mac
+  - terminal
 ---
 
 ## 터미널 설정 배경

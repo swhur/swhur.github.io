@@ -8,9 +8,10 @@ categories: terminal
 기본적으로 제공하는 터미널을 사용해도 되지만, 좀 더 편하고 효율적인 사용을 위해서 터미널을 설정한다. (iterm2 사용)
 새로 설치된 맥(Catalina 기준)에는 기본적으로 zsh를 사용하도록 되어 있다. (bash를 사용하는지 알았는데 아님)
 터미널 확인은 다음 명령어로 확인 가능하다.  
+
 ```console
 $ echo $SHELL
-``` 
+```
 
 ## 터미널 설정
 Oh My ZSH와 iterm2의 조합으로 터미널을 설정한다. 
@@ -29,19 +30,19 @@ Homebrew는 mac os용 패키지 관리 어플리케이션이다. 
 설치는 아래 명령어를 수행하면 된다.
 ```console
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-``` 
+```
 
 ### zsh 설치
 brew를 통하여 최신 버전의 zsh를 설치한다. 
 ```console
 $ brew install zsh
-``` 
+```
 
 ### Oh My ZSH 설치
 Oh My ZSH는 zsh를 더 쉽게 사용할 수 있게 해주는 플러그 인으로서, 아래 명령어로 설치하면 된다. 
 ```console
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-``` 
+```
 
 ### 터미널 꾸미기
 #### 테마 설정

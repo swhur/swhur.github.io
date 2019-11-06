@@ -110,4 +110,3 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
 
 이상으로 iterm2 터미널 설정을 마친다.
-

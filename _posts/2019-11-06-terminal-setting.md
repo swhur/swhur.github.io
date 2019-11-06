@@ -63,7 +63,7 @@ iTerm2 -> Profiles -> Open Profiles -> Edit Profile -> Text -> Font�
 .zshrc 파일 하단에 다음의 문구를 추가한다. 
 prompt_context() {
   if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
-    prompt_segment black default "%(!.%{%F{yellow}%}.)$USER"
+    prompt_segment black default "%(!.%{\%F{yellow}%}.)$USER"
   fi
 }
 
@@ -72,13 +72,13 @@ theme 파일을 열어서, prompt_newline 함수를 추가한다. 
 ```
 prompt_newline() {
   if [[ -n $CURRENT_BG ]]; then
-    echo -n "%{%k%F{$CURRENT_BG}%}$SEGMENT_SEPARATOR
-%{%k%F{blue}%}$SEGMENT_SEPARATOR"
+    echo -n "%{\%k\%F{$CURRENT_BG}%}$SEGMENT_SEPARATOR
+%{\%k\%F{blue}%}$SEGMENT_SEPARATOR"
   else
-    echo -n "%{%k%}"
+    echo -n "%{\%k%}"
   fi
 
-  echo -n "%{%f%}"
+  echo -n "%{\%f%}"
   CURRENT_BG=''
 }
 ```

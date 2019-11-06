@@ -100,8 +100,8 @@ build_prompt() {
 ```
 그런데 이 부분은 필요가 없을 듯 해서, build_prompt는 추가하지 않음
 
-#### Syntax Hightlight 적용
-brew를 통하여 설치한다. 아래의 명령어를 수행하면 된다. 
+#### Syntax Hightlight 적용
+brew를 통하여 설치한다. 아래의 명령어를 수행하면 된다. 
 ```console
 brew install zsh-syntax-highlighting
 ```

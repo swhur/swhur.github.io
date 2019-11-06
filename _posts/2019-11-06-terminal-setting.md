@@ -5,6 +5,7 @@ categories: terminal
 ---
 
 ## 터미널 설정 배경
+
 기본적으로 제공하는 터미널을 사용해도 되지만, 좀 더 편하고 효율적인 사용을 위해서 터미널을 설정한다. (iterm2 사용)
 새로 설치된 맥(Catalina 기준)에는 기본적으로 zsh를 사용하도록 되어 있다. (bash를 사용하는지 알았는데 아님)
 터미널 확인은 다음 명령어로 확인 가능하다.  
@@ -14,10 +15,12 @@ $ echo $SHELL
 ```
 
 ## 터미널 설정
+
 Oh My ZSH와 iterm2의 조합으로 터미널을 설정한다. 
 [Oh My ZSH+ iTerm2로 터미널을 더 강력하게](https://medium.com/harrythegreat/oh-my-zsh-iterm2%EB%A1%9C-%ED%84%B0%EB%AF%B8%EB%84%90%EC%9D%84-%EB%8D%94-%EA%B0%95%EB%A0%A5%ED%95%98%EA%B2%8C-a105f2c01bec)을 참고하였음
 
 ### iterm2 설치
+
 [iterm2 site](https://www.iterm2.com/)에서 최신 버전을 다운 받아서 설치한다.
 
 ### iterm2 컬러 설정 변경

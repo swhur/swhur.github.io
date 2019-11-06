@@ -57,7 +57,7 @@ naver에서 제공하는 NanumGothic 폰트와 D2Coding 폰트를 설치한다.
 설치 방법은 다운 받은 파일을 /Library/Fonts에 복사하면 된다. 
 
 ##### iterm2에 폰트 설정
-
+iTerm2 -> Profiles -> Open Profiles -> Edit Profile -> Text -> Font -> D2Coding 선택
 
 #### prompt text 변경
 .zshrc 파일 하단에 다음의 문구를 추가한다. 
